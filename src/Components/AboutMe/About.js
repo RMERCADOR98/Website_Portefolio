@@ -11,10 +11,13 @@ import {
 } from "react-icons/di";
 
 import { SiRedux } from "react-icons/si";
-import { SiFirebase } from "react-icons/si";
+import { SiFirebase,SiCinema4D,SiAdobeillustrator,SiAdobexd, SiFigma } from "react-icons/si";
+
+
 
 const About = () => {
   return (
+
     <div
       class="d-flex justify-content-center text-center pt-5 mt-5 container-fluid"
       style={{ backgroundColor: "white", minHeight: "100vh", color: "black" }}
@@ -49,11 +52,10 @@ const About = () => {
             My Resume &nbsp; &nbsp;
             <BiDownload size="1.2em" />
           </button>
-          i´m here now 
         </section>
 
         <section className="Skills" class="pt-5 mt-5">
-          <div className="Title">
+          <div className="Title1">
             <h2>
               <b>Skills</b>
             </h2>
@@ -99,9 +101,45 @@ const About = () => {
               </div>
             </div>
           </div>
+          <div className="Title1" class="pt-5 mt-5">
+            <h2>
+              <b>Other Skills</b>
+            </h2>
+          </div>
+          <div className="Icons" class="container mt-5 pt-3">
+            <div class="row">
+              <div class="col-sm">
+                <SiCinema4D size="6em" />
+                <p />
+                <h4>Cinema 4D</h4>
+              </div>
+              <div class="col-sm">
+                <SiAdobeillustrator size="6em" />
+                <p />
+                <h4>Adobe Illustrator</h4>
+              </div>
+              <div class="col-sm">
+                <SiAdobexd size="6em" />
+                <p />
+                <h4>Adobe XD</h4>
+              </div>
+              <div class="col-sm">
+                <SiFigma size="6em" />
+                <p />
+                <h4>Figma</h4>
+              </div>
+            </div>
+          </div>
         </section>
+
+
       </div>
+
+      
     </div>
+
+
+    
   );
 };
 
