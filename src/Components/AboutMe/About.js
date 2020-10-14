@@ -49,6 +49,7 @@ const About = () => {
             My Resume &nbsp; &nbsp;
             <BiDownload size="1.2em" />
           </button>
+          i´m here now 
         </section>
 
         <section className="Skills" class="pt-5 mt-5">
