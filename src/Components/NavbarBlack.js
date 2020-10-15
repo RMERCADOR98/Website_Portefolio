@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 
 const NavbarBlack = () => {
   return (
-    <nav class="navbar navbar-light bg-transparent fixed-top">
-      <div class="container-fluid">
+
+    <nav class="navbar navbar-light bg-white " >
+      <div class="container-fluid" >
         <Link class="navbar-brand text-black" to="/">
           RM
         </Link>
@@ -13,6 +14,7 @@ const NavbarBlack = () => {
         </form>
       </div>
     </nav>
+
   );
 };
 

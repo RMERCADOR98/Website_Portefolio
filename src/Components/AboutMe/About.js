@@ -1,6 +1,7 @@
 import React from "react";
 import NavbarBlack from "../NavbarBlack";
 import { BiDownload } from "react-icons/bi";
+import './About.css'
 
 import {
   DiCss3,
@@ -13,18 +14,21 @@ import {
 import { SiRedux } from "react-icons/si";
 import { SiFirebase,SiCinema4D,SiAdobeillustrator,SiAdobexd, SiFigma } from "react-icons/si";
 
+import Footer from '../Footer'
 
 
 const About = () => {
   return (
-
-    <div
-      class="d-flex justify-content-center text-center pt-5 mt-5 container-fluid"
-      style={{ backgroundColor: "white", minHeight: "100vh", color: "black" }}
-    >
+<div>
       <div className="NavBar">
         <NavbarBlack />
       </div>
+    <div
+      class="d-flex justify-content-center text-center pt-5 container-fluid"
+      style={{ backgroundColor: "white ", minHeight: "100vh", color: "black" }}
+
+    >
+
       <div className="AboutText">
         <section className="MainText">
           <h3>
@@ -36,7 +40,7 @@ const About = () => {
           <p>I´m a Portuguese Web Developer looking to take new challenges!</p>
           <br />
           <p>
-            I´m a very curious aboiut everything that surrounds me and nowadays
+            I´m  very curious about everything that surrounds me and nowadays
             we live in a world <br />
             dominated by the internt, so i felt in love by the way a website can
             change the prespective <br />
@@ -54,7 +58,7 @@ const About = () => {
           </button>
         </section>
 
-        <section className="Skills" class="pt-5 mt-5">
+        <section className="Skills" class="pt-5 mt-5 mb-5">
           <div className="Title1">
             <h2>
               <b>Skills</b>
@@ -136,6 +140,11 @@ const About = () => {
       </div>
 
       
+    </div>
+    <section >
+    <Footer />
+    </section>
+    
     </div>
 
 

@@ -15,7 +15,7 @@ const Center = () => {
         >
           <div class="col-sm-12 align-self-center justify-content-center d-flex">
             <h3>
-              Hi!&nbsp;I am &nbsp;<b>Rodrigo Mercador</b>
+              Hi!&nbsp;I am&nbsp;<b>Rodrigo Mercador</b>
             </h3>
             <Link to="/about">
               <button></button>
