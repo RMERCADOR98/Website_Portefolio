@@ -13,12 +13,15 @@ const Center = () => {
             height: "95vh",
           }}
         >
-          <div class="col-sm-12 align-self-center justify-content-center d-flex">
+          <div class=" col-sm-12 align-self-center justify-content-center text-center">
             <h3>
               Hi!&nbsp;I am&nbsp;<b>Rodrigo Mercador</b>
             </h3>
             <Link to="/about">
-              <button></button>
+              <button>about</button>
+            </Link>
+            <Link to="/contact">
+              <button>contact</button>
             </Link>
           </div>
         </div>
