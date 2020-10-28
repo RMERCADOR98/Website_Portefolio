@@ -149,6 +149,23 @@ const About = () => {
               </div>
             </div>
           </section>
+          <div class="pt-5">
+            <p>
+              {" "}
+              You can also check my{" "}
+              <a href="" style={{ textDecoration: "none", color: "black" }}>
+                <span>
+                  <b>Diploma</b>
+                </span>
+              </a>{" "}
+              and and{" "}
+              <a href="" style={{ textDecoration: "none", color: "black" }}>
+                <span>
+                  <b>Suplement</b>
+                </span>
+              </a>{" "}
+            </p>
+          </div>
         </div>
       </div>
       <section>
