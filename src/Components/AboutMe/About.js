@@ -59,7 +59,7 @@ const About = () => {
           </section>
           <section>
             <a
-              href="https://drive.google.com/file/d/1S8gzAlS4XTSf6HVHref4cXJIsGIiKA_n/view?usp=sharing"
+              href="https://drive.google.com/file/d/1BmNioeSb_sSkGLIMc3cqsdFclgXRAyUH/view?usp=sharing"
               target="_blank"
             >
               <button
@@ -149,19 +149,18 @@ const About = () => {
               </div>
             </div>
           </section>
-          <div class="pt-5">
+          <div class="p-5">
             <p>
-              {" "}
-              You can also check my{" "}
-              <a href="" style={{ textDecoration: "none", color: "black" }}>
+              You can also check my
+              <a href="https://drive.google.com/file/d/1S8gzAlS4XTSf6HVHref4cXJIsGIiKA_n/view?usp=sharing" target="blank" style={{ textDecoration: "none", color: "black" }}>
                 <span>
-                  <b>Diploma</b>
+                  <b> Diploma </b>
                 </span>
-              </a>{" "}
-              and and{" "}
-              <a href="" style={{ textDecoration: "none", color: "black" }}>
+              </a>
+              and 
+              <a href="https://drive.google.com/file/d/1a2wHVCd9RDanQiTOcZY0z6aeQQykmy69/view?usp=sharing" target="blank" style={{ textDecoration: "none", color: "black" }}>
                 <span>
-                  <b>Suplement</b>
+                  <b> Suplement</b>
                 </span>
               </a>{" "}
             </p>
