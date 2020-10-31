@@ -20,6 +20,9 @@ const Center = () => {
             <Link to="/about">
               <button>about</button>
             </Link>
+            <Link to="/projects">
+              <button>projects</button>
+            </Link>
             <Link to="/contact">
               <button>contact</button>
             </Link>

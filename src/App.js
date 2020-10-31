@@ -3,7 +3,10 @@ import React from "react";
 import Home from "./Components/Home/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./Components/AboutMe/About";
-import Contact from "./Components/Contact/Contact"
+import Contact from "./Components/Contact/Contact";
+import Projects from "./Components/Projects/Projects";
+
+import Project1 from "./Components/Projects/ProjectList/Project1";
 import "./App.css";
 
 const App = () => {
@@ -16,6 +19,12 @@ const App = () => {
           </Route>
           <Route exact path="/about" component={About}>
             <About />
+          </Route>
+          <Route exact path="/projects" component={Projects}>
+            <Projects />
+          </Route>
+          <Route exact path="/projects/project1" component={Project1}>
+            <Project1 />
           </Route>
           <Route exact path="/contact" component={Contact}>
             <Contact />

@@ -60,7 +60,7 @@ const About = () => {
           <section>
             <a
               href="https://drive.google.com/file/d/1BmNioeSb_sSkGLIMc3cqsdFclgXRAyUH/view?usp=sharing"
-              target="_blank"
+              target="blank"
             >
               <button
                 type="button"
@@ -152,13 +152,21 @@ const About = () => {
           <div class="p-5">
             <p>
               You can also check my
-              <a href="https://drive.google.com/file/d/1S8gzAlS4XTSf6HVHref4cXJIsGIiKA_n/view?usp=sharing" target="blank" style={{ textDecoration: "none", color: "black" }}>
+              <a
+                href="https://drive.google.com/file/d/1S8gzAlS4XTSf6HVHref4cXJIsGIiKA_n/view?usp=sharing"
+                target="blank"
+                style={{ textDecoration: "none", color: "black" }}
+              >
                 <span>
                   <b> Diploma </b>
                 </span>
               </a>
-              and 
-              <a href="https://drive.google.com/file/d/1a2wHVCd9RDanQiTOcZY0z6aeQQykmy69/view?usp=sharing" target="blank" style={{ textDecoration: "none", color: "black" }}>
+              and
+              <a
+                href="https://drive.google.com/file/d/1a2wHVCd9RDanQiTOcZY0z6aeQQykmy69/view?usp=sharing"
+                target="blank"
+                style={{ textDecoration: "none", color: "black" }}
+              >
                 <span>
                   <b> Suplement</b>
                 </span>
