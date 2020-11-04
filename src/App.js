@@ -1,10 +1,10 @@
 import React from "react";
 // import "../node_modules/font-awesome/css/font-awesome.min.css";
-import Home from "./Components/Home/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./Components/AboutMe/About";
 import Contact from "./Components/Contact/Contact";
 import Projects from "./Components/Projects/Projects";
+import Home from "./Components/Home/Home";
 
 import Project1 from "./Components/Projects/ProjectList/Project1";
 import "./App.css";
