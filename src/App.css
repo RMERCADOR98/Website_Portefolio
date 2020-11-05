@@ -38,7 +38,7 @@
 } */
 
 .App {
-  background-color: black ;
+  background-color: black !important ;
   /* min-height: 100vh; */
   color: white;
 }
