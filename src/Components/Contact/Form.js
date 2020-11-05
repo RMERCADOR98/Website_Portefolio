@@ -42,6 +42,7 @@ const Form = ({ state, handleChange, handleSubmit }) => {
           value={state.message}
           onChange={handleChange("message")}
           rows="6"
+          style={{ resize: "none" }}
         />
       </div>
 
