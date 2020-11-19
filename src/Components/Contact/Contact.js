@@ -51,6 +51,7 @@ class Contact extends Component {
           emailSent: false,
         });
       });
+    console.log(this.state);
   };
 
   render() {
