@@ -29,8 +29,8 @@ class Contact extends Component {
       btn: true,
       // emailSent: true,
     });
-    // Axios.post("https://portefolio-api.herokuapp.com/api/email", this.state)
-    Axios.post("http://localhost:3030/api/email", this.state)
+    Axios.post("https://portefolio-api.herokuapp.com/api/email", this.state)
+      // Axios.post("http://localhost:3030/api/email", this.state)
       .then((res) => {
         if (res.data.sucess) {
           this.setState({
@@ -51,7 +51,14 @@ class Contact extends Component {
           emailSent: false,
         });
       });
-    console.log(this.state);
+    this.setState({
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+      btn: false,
+      emailSent: null,
+    });
   };
 
   render() {

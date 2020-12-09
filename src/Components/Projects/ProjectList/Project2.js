@@ -1,14 +1,14 @@
 import React from "react";
 //Logo
-import logo from "../img/logo.png";
+import iblog from "../img/iblog.png";
 
-const Project1 = () => {
+const Project2 = () => {
   return (
     <div style={{ color: "black" }}>
       <section className="Projects" class="container pt-5">
         <div className="projeto1" class="text-left px-5">
           <div className="title">
-            <h2>Lar App</h2>
+            <h2>IBlog</h2>
           </div>
           <div
             className="line"
@@ -22,23 +22,17 @@ const Project1 = () => {
           <div
             className="project"
             style={{
-              //  background: "#fdfdc1",
+              background: "#000",
               height: "45vh",
             }}
           >
-            {" "}
-            <a
-              href="https://projetofinal.now.sh/"
-              style={{ textDecoration: "none", color: "black" }}
+            <div
+              className="logo"
+              class="d-flex justify-content-center align-items-center text-center"
+              style={{ height: "45vh" }}
             >
-              <div
-                className="logo"
-                class="d-flex justify-content-center align-items-center text-center"
-                style={{ height: "45vh" }}
-              >
-                <img src={logo} style={{ height: "45vh" }} alt="" />
-              </div>
-            </a>
+              <img src={iblog} style={{ height: "45vh" }} alt="" />
+            </div>
           </div>
         </div>
       </section>
@@ -46,4 +40,4 @@ const Project1 = () => {
   );
 };
 
-export default Project1;
+export default Project2;

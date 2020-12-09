@@ -7,7 +7,7 @@ import { BiCopyright } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <div style={{ backgroundColor: "#E4E4E4", color: "black" }} class="pt-4">
+    <div style={{ backgroundColor: "#E4E4E4", color: "black" }} class="pt-4 ">
       <div class="container">
         <div class="row">
           <div class="col-sm">
@@ -17,9 +17,25 @@ const Footer = () => {
             <HiMail size="1.5em" style={{ paddingBottom: "4px" }} />
             <span>rodrigosmercador@gmail.com</span>
             <br />
-            <FaGithub size="1.2em" />
-            &nbsp;&nbsp;
-            <FaLinkedin size="1.2em" />
+            <div style={{ paddingLeft: "0.15rem" }}>
+              <a
+                href="https://github.com/RMERCADOR98"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "black" }}
+              >
+                <FaGithub size="1.2em" />
+              </a>
+              &nbsp;&nbsp;
+              <a
+                href="https://www.linkedin.com/in/rodrigo-mercador-a904221b0/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "black" }}
+              >
+                <FaLinkedin size="1.2em" />
+              </a>
+            </div>
           </div>
           <div class="col-sm">
             <h4>
@@ -50,7 +66,7 @@ const Footer = () => {
               Contact
             </Link>
           </div>
-          <div class="col-sm">Harooo</div>
+          <div class="col-sm"></div>
         </div>
         <span class="text-center justify-content-center d-flex pt-4 pb-2">
           2020 Copyright &nbsp;{" "}

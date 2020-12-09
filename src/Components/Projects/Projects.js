@@ -5,6 +5,11 @@ import { Link, useRouteMatch } from "react-router-dom";
 
 import { BiDownArrowCircle } from "react-icons/bi";
 
+//Projects
+import Project1 from "./ProjectList/Project1";
+import Project2 from "./ProjectList/Project2";
+import Project3 from "./ProjectList/Project3";
+
 const Projects = () => {
   let { url } = useRouteMatch();
 
@@ -19,6 +24,7 @@ const Projects = () => {
           backgroundColor: "white ",
           minHeight: "100vh",
           color: "black",
+          paddingBottom: "100px",
         }}
       >
         <section className="Top">
@@ -30,41 +36,22 @@ const Projects = () => {
           </div>
         </section>
 
-        <section className="Projects" class="container pt-5">
-          <div class="row justify-content-evenly g-5">
-            <div
-              class="p-2 col-sm-5 col-m-5 p-4"
-              style={{ backgroundImage: `url("logo.png")` }}
-            >
-              <div class="z-index-1">
-                <div className="topText" class="text-left">
-                  <p>
-                    2020
-                    <br />
-                    <b>Lar App - </b> The nursing home Managment
-                  </p>
-                </div>
-                <div classname="spaceBettwen" style={{ height: "560px" }}></div>
-                <div className="bottomText" class="text-right">
-                  <Link
-                    to={`${url}project1`}
-                    style={{ textDecoration: "none", color: "black" }}
-                  >
-                    View Project
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div class="p-2 col-sm-5 bg-secondary">Projeto 2</div>
-          </div>
-        </section>
+        <Project1 />
+
+        {/* <Project2 /> */}
+        {/* <Project3 /> */}
       </div>
 
-      <div>
+      {/* <div>
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
 };
 
 export default Projects;
+{
+  /* <Link to={`${url}project1`} style={{ textDecoration: "none", color: "black" }}>
+  View Project
+</Link>; */
+}

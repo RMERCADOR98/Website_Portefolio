@@ -20,23 +20,28 @@ const Home = () => {
               <h3>
                 Hi!&nbsp;I am&nbsp;<b>Rodrigo Mercador</b>
               </h3>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div
-            class="row"
-            style={{
-              height: "5vh",
-            }}
-          >
-            <div class="col-sm-12 align-self-start">
-              {/* <i style={{}} className="fa fa-github" /> */}
-              <FaGithub size="1.8em" />
-            </div>
-            <div class="col-sm-12 align-self-start">
-              {/* <i className="fa fa-linkedin" /> */}
-              <FaLinkedin size="1.8em" />
+              <a
+                href="https://github.com/RMERCADOR98"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "white" }}
+              >
+                <FaGithub
+                  size="2em"
+                  style={{ marginTop: "1rem", marginRight: "0.5rem" }}
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/rodrigo-mercador-a904221b0/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "white" }}
+              >
+                <FaLinkedin
+                  size="2em"
+                  style={{ marginTop: "1rem", marginLeft: "0.5rem" }}
+                />
+              </a>
             </div>
           </div>
         </section>

@@ -1,3 +1,4 @@
+import { left } from "@popperjs/core";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Menu.css";
@@ -42,11 +43,22 @@ class NavbarWhite extends Component {
 
         <div id="flyoutMenu" class={this.state.classe}>
           <div class="container-fluid">
-            <div class="row" style={{ height: "100vh" }}>
-              <div class="col-sm-12 align-self-center justify-content-center text-center">
-                <span onClick={this.hideMenu} style={{ cursor: "pointer" }}>
+            <div class="row" style={{ height: "70vh", zIndex: "1" }}>
+              <div class="text-right">
+                <h2
+                  onClick={this.hideMenu}
+                  style={{
+                    cursor: "pointer",
+                    zIndex: "2",
+                    margin: "1rem 0.1rem 0.8rem 1rem",
+                    padding: "0.4rem",
+                    fontSize: "1.5rem",
+                  }}
+                >
                   X
-                </span>
+                </h2>
+              </div>
+              <div class="col-sm-12 align-self-center justify-content-center text-center">
                 <br />
                 <h2>
                   <Link to="/">Home</Link>

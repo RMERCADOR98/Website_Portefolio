@@ -2,14 +2,14 @@ import React from "react";
 
 const Form = ({ state, handleChange, handleSubmit }) => {
   return (
-    <form class="row g-4" onSubmit={handleSubmit}>
+    <form class="row g-4 pb-5" onSubmit={handleSubmit}>
       <div class="col-md-6">
         <input
           type="text"
           class="form-control"
-          id="fullName"
+          id="name"
           placeholder="Name"
-          value={state.nome}
+          value={state.name}
           onChange={handleChange("name")}
         />
       </div>
