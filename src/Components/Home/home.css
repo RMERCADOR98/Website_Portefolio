@@ -1,0 +1,12 @@
+#git {
+  transition: 0.3s;
+}
+#git:hover {
+  transform: scale(1.1);
+}
+#in {
+  transition: 0.3s;
+}
+#in:hover {
+  transform: scale(1.1);
+}

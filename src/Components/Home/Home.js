@@ -1,14 +1,26 @@
 import React from "react";
 import NavbarWhite from "../NavbarWhite";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+//Animations
+import { motion } from "framer-motion";
+import { pageAnimation } from "../animations";
+import { icons } from "../animations";
+//Style
+import "./home.css";
 
 const Home = () => {
   return (
-    <div>
+    <div style={{ overflow: "hidden" }}>
       <div className="NavBar" style={{ height: "5vh" }}>
         <NavbarWhite />
       </div>
-      <div class="container-fluid">
+      <motion.div
+        variants={pageAnimation}
+        initial="hidden"
+        animate="show"
+        exit="exit"
+        class="container-fluid"
+      >
         <section>
           <div
             class="row"
@@ -20,32 +32,41 @@ const Home = () => {
               <h3>
                 Hi!&nbsp;I am&nbsp;<b>Rodrigo Mercador</b>
               </h3>
-              <a
-                href="https://github.com/RMERCADOR98"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ color: "white" }}
+              <motion.div
+                variants={icons}
+                initial="hidden"
+                animate="show"
+                exit="exit"
               >
-                <FaGithub
-                  size="2em"
-                  style={{ marginTop: "1rem", marginRight: "0.5rem" }}
-                />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/rodrigo-mercador-a904221b0/"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ color: "white" }}
-              >
-                <FaLinkedin
-                  size="2em"
-                  style={{ marginTop: "1rem", marginLeft: "0.5rem" }}
-                />
-              </a>
+                <a
+                  href="https://github.com/RMERCADOR98"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "white" }}
+                >
+                  <FaGithub
+                    id="git"
+                    size="2em"
+                    style={{ marginTop: "1rem", marginRight: "0.5rem" }}
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/rodrigo-mercador-a904221b0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "white" }}
+                >
+                  <FaLinkedin
+                    id="in"
+                    size="2em"
+                    style={{ marginTop: "1rem", marginLeft: "0.5rem" }}
+                  />
+                </a>
+              </motion.div>
             </div>
           </div>
         </section>
-      </div>
+      </motion.div>
     </div>
   );
 };

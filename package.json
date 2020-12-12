@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
- 
   "private": true,
   "dependencies": {
     "@popperjs/core": "^2.5.4",
@@ -10,16 +9,18 @@
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.21.0",
     "bootstrap": "^5.0.0-alpha2",
+    "framer-motion": "^2.9.5",
     "popper.js": "^1.16.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.11.0",
+    "react-intersection-observer": "^8.31.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "vercel": "^20.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=3004 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
