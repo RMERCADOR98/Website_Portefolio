@@ -8,30 +8,17 @@
 
   background-color: black;
 
-  transform: translate3d(100%, 0, 0) scale3d(1, 1, 1);
-
-  /* transition: transform 0.8s cubic-bezier(0, 0.52, 0, 1); */
   transition: transform 0.6s;
-
-  overflow: hidden !important;
 
   z-index: 1000;
 }
 
 #flyoutMenu h2 a {
-  color: #fff;
-  /* margin-left: 15px; */
-  text-decoration: none;
-  /* display: inline-block; */
-}
-
-/* #flyoutMenu h2 a:hover {
-  text-decoration: underline;
-} */
-
-#flyoutMenu h2 {
   position: relative;
   display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  margin: 1.3rem 0rem;
 }
 
 #flyoutMenu h2 ::after {
