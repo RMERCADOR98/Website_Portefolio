@@ -81,39 +81,39 @@ const About = () => {
             <div className="Icons" class="container mt-5">
               <div class="row">
                 <div class="col-sm">
-                  <DiHtml5 size="6em" />
+                  <DiHtml5 size="4em" />
                   <p />
                   <h4>HTML5</h4>
                 </div>
                 <div class="col-sm">
-                  <DiCss3 size="6em" />
+                  <DiCss3 size="4em" />
                   <p />
                   <h4>CSS3</h4>
                 </div>
                 <div class="col-sm">
-                  <DiJavascript1 size="6em" />
+                  <DiJavascript1 size="4em" />
                   <p />
                   <h4>Javascript</h4>
                 </div>
                 <div class="col-sm">
-                  <DiNodejsSmall size="6em" />
+                  <DiNodejsSmall size="4em" />
                   <p />
                   <h4>Node</h4>
                 </div>
               </div>
               <div class="row mt-5">
                 <div class="col-sm">
-                  <DiReact size="6em" />
+                  <DiReact size="4em" />
                   <p />
                   <h4>REACT</h4>
                 </div>
                 <div class="col-sm mt-3">
-                  <SiRedux size="5em" />
+                  <SiRedux size="3em" />
                   <p />
                   <h4>REDUX</h4>
                 </div>
                 <div class="col-sm mt-3">
-                  <SiFirebase size="5em" />
+                  <SiFirebase size="3em" />
                   <p />
                   <h4>FIREBASE</h4>
                 </div>
@@ -127,22 +127,22 @@ const About = () => {
             <div className="Icons" class="container mt-5 pt-3">
               <div class="row">
                 <div class="col-sm">
-                  <SiCinema4D size="6em" />
+                  <SiCinema4D size="4em" />
                   <p />
                   <h4>Cinema 4D</h4>
                 </div>
                 <div class="col-sm">
-                  <SiAdobeillustrator size="6em" />
+                  <SiAdobeillustrator size="4em" />
                   <p />
                   <h4>Adobe Illustrator</h4>
                 </div>
                 <div class="col-sm">
-                  <SiAdobexd size="6em" />
+                  <SiAdobexd size="4em" />
                   <p />
                   <h4>Adobe XD</h4>
                 </div>
                 <div class="col-sm">
-                  <SiFigma size="6em" />
+                  <SiFigma size="4em" />
                   <p />
                   <h4>Figma</h4>
                 </div>

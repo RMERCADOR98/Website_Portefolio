@@ -68,13 +68,18 @@ const Footer = () => {
           </div>
           <div class="col-sm"></div>
         </div>
-        <span class="text-center justify-content-center d-flex pt-4 pb-2">
+        <div class="d-flex justify-content-center text-center pt-4 pb-2">
+        <span >
           2020 Copyright &nbsp;{" "}
           <span>
             <BiCopyright />
           </span>
           &nbsp;<b>Rodrigo Mercador</b>
         </span>
+        <span>
+          Direita
+        </span>
+        </div>
       </div>
     </div>
   );
