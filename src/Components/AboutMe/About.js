@@ -82,21 +82,25 @@ const About = () => {
               <div class="row">
                 <div class="col-sm">
                   <DiHtml5 size="5em" />
+
                   <p />
                   <h4>HTML5</h4>
                 </div>
                 <div class="col-sm">
                   <DiCss3 size="5em" />
+
                   <p />
                   <h4>CSS3</h4>
                 </div>
                 <div class="col-sm">
                   <DiJavascript1 size="5em" />
+
                   <p />
                   <h4>Javascript</h4>
                 </div>
                 <div class="col-sm">
                   <DiNodejsSmall size="5em" />
+
                   <p />
                   <h4>Node</h4>
                 </div>
@@ -104,16 +108,17 @@ const About = () => {
               <div class="row mt-5">
                 <div class="col-sm">
                   <DiReact size="5em" />
+
                   <p />
                   <h4>REACT</h4>
                 </div>
                 <div class="col-sm mt-3">
-                  <SiRedux size="5em" />
+                  <SiRedux size="3em" />
                   <p />
                   <h4>REDUX</h4>
                 </div>
                 <div class="col-sm mt-3">
-                  <SiFirebase size="5em" />
+                  <SiFirebase size="3em" />
                   <p />
                   <h4>FIREBASE</h4>
                 </div>
@@ -128,21 +133,25 @@ const About = () => {
               <div class="row">
                 <div class="col-sm">
                   <SiCinema4D size="5em" />
+
                   <p />
                   <h4>Cinema 4D</h4>
                 </div>
                 <div class="col-sm">
                   <SiAdobeillustrator size="5em" />
+
                   <p />
                   <h4>Adobe Illustrator</h4>
                 </div>
                 <div class="col-sm">
                   <SiAdobexd size="5em" />
+
                   <p />
                   <h4>Adobe XD</h4>
                 </div>
                 <div class="col-sm">
                   <SiFigma size="5em" />
+
                   <p />
                   <h4>Figma</h4>
                 </div>
