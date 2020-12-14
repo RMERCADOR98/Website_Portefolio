@@ -30,7 +30,7 @@ const Home = () => {
           >
             <div class=" col-sm-12 align-self-center justify-content-center text-center">
               <h3>
-                Hi!&nbsp;I am&nbsp;<b>Rodrigo Mercador</b>
+                Hi!&nbsp;I am&nbsp;<b>Rodrigo Mercador new changes!</b>
               </h3>
               <motion.div
                 variants={icons}
