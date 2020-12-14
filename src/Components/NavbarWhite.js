@@ -1,7 +1,8 @@
-import { left } from "@popperjs/core";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Menu.css";
+
+//NAVBAR COM LETRAS BRANCAS
 
 class NavbarWhite extends Component {
   state = {
