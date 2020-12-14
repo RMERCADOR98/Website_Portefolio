@@ -42,9 +42,9 @@ const Projects = () => {
         {/* <Project3 /> */}
       </div>
 
-      {/* <div>
+      <div>
         <Footer />
-      </div> */}
+      </div>
     </div>
   );
 };

@@ -30,6 +30,7 @@ const Project1 = () => {
             <a
               href="https://projetofinal.now.sh/"
               style={{ textDecoration: "none", color: "black" }}
+              target="_blank"
             >
               <div
                 className="logo"

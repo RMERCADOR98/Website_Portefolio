@@ -66,7 +66,14 @@ const Footer = () => {
               Contact
             </Link>
           </div>
-          <div class="col-sm"></div>
+          <div class="col-sm" >
+          <h4>
+            <b>Projects</b>
+            </h4>
+            <a href="https://projetofinal.now.sh/" style={{textDecoration:"none", color:"black"}} target="_blank">
+            LAPP
+            </a>
+          </div>
         </div>
         <div class="d-flex justify-content-center text-center pt-4 pb-2">
         <span >
@@ -75,9 +82,6 @@ const Footer = () => {
             <BiCopyright />
           </span>
           &nbsp;<b>Rodrigo Mercador</b>
-        </span>
-        <span>
-          Direita
         </span>
         </div>
       </div>
