@@ -25,6 +25,10 @@ class NavbarBlack extends Component {
       classe: "hide",
     });
   };
+  showScroll = (e) => {
+    e.preventDefault();
+    document.body.style.overflow = "auto";
+  };
 
   render() {
     return (
@@ -63,12 +67,12 @@ class NavbarBlack extends Component {
             <div class="row" style={{ height: "80vh", zIndex: "1" }}>
               <div class="col-sm-12 align-self-center justify-content-center text-center">
                 <br />
-                <h2>
+                <h2 >
                   <Link to="/">Home</Link>
                 </h2>
                 <p />
-                <h2>
-                  <Link to="/about">About</Link>
+                <h2 onClick={this.showScroll}>
+                  <Link to="/about" >About</Link>
                 </h2>
                 <p />
                 <h2>

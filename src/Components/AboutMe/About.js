@@ -59,8 +59,8 @@ const About = () => {
           </section>
           <section>
             <a
-              href="https://drive.google.com/file/d/1BmNioeSb_sSkGLIMc3cqsdFclgXRAyUH/view?usp=sharing"
-              target="blank"
+              href="https://drive.google.com/file/d/1hQJjcyf6TRFHBeOGoY_uskxH6zuKIcq5/view?usp=sharing"
+              target="_blank"
             >
               <button
                 type="button"
