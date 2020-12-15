@@ -1,7 +1,10 @@
 import React from "react";
-import NavbarBlack from "../NavbarBlack";
 import { BiDownload } from "react-icons/bi";
 import "./About.css";
+
+//Animation
+import { pageAnimation } from "../animations";
+import { motion } from "framer-motion";
 
 import {
   DiCss3,
@@ -24,17 +27,18 @@ import Footer from "../Footer";
 
 const About = () => {
   return (
-    <div>
-      <div className="NavBar">
-        <NavbarBlack />
-      </div>
-      <div
+    <div style={{ background: "#fff" }}>
+      <motion.div
         class="d-flex justify-content-center text-center pt-5 container-fluid"
         style={{
           backgroundColor: "white ",
           minHeight: "100vh",
           color: "black",
         }}
+        variants={pageAnimation}
+        initial="hidden"
+        animate="show"
+        exit="exit"
       >
         <div className="AboutText">
           <section className="MainText">
@@ -183,7 +187,7 @@ const About = () => {
             </p>
           </div>
         </div>
-      </div>
+      </motion.div>
       <section>
         <Footer />
       </section>

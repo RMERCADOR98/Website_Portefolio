@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-import NavbarBlack from "../NavbarBlack";
 import Footer from "../Footer";
 import Form from "./Form";
 
 import Axios from "axios";
+
+//Animation
+import { pageAnimation } from "../animations";
 
 class Contact extends Component {
   state = {
@@ -63,11 +65,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <div>
-        <div className="NavBar">
-          <NavbarBlack />
-        </div>
-
+      <div variants={pageAnimation} initial="hidden" animate="show" exit="exit">
         <div
           class=" justify-content-center text-center pt-5 container-fluid "
           style={{

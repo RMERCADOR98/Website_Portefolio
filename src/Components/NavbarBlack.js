@@ -25,29 +25,43 @@ class NavbarBlack extends Component {
       classe: "hide",
     });
   };
-  showScroll = (e) => {
-    e.preventDefault();
-    document.body.style.overflow = "auto";
-  };
 
   render() {
+    const location = this.props.location.pathname;
     return (
       <div>
-        <nav class="navbar navbar-light bg-white ">
-          <div class="container-fluid">
-            <Link class="navbar-brand text-black" to="/">
-              RM
-            </Link>
+        {location !== "/" ? (
+          <nav class="navbar navbar-light bg-white ">
+            <div class="container-fluid">
+              <Link class="navbar-brand text-black" to="/">
+                RM
+              </Link>
 
-            <form class="d-flex">
-              <span
-                class="navbar-toggler-icon"
-                onClick={this.showMenu}
-                style={{ cursor: "pointer" }}
-              ></span>
-            </form>
-          </div>
-        </nav>
+              <form class="d-flex">
+                <span
+                  class="navbar-toggler-icon"
+                  onClick={this.showMenu}
+                  style={{ cursor: "pointer" }}
+                ></span>
+              </form>
+            </div>
+          </nav>
+        ) : (
+          <nav class="navbar navbar-dark bg-transparent ">
+            <div class="container-fluid">
+              <Link class="navbar-brand text-white" to="/">
+                RM
+              </Link>
+              <form class="d-flex">
+                <span
+                  class="navbar-toggler-icon "
+                  onClick={this.showMenu}
+                  style={{ cursor: "pointer" }}
+                ></span>
+              </form>
+            </div>
+          </nav>
+        )}
 
         <div id="flyoutMenu" class={this.state.classe}>
           <div class="container-fluid">
@@ -67,20 +81,20 @@ class NavbarBlack extends Component {
             <div class="row" style={{ height: "80vh", zIndex: "1" }}>
               <div class="col-sm-12 align-self-center justify-content-center text-center">
                 <br />
-                <h2 >
+                <h2 onClick={this.hideMenu}>
                   <Link to="/">Home</Link>
                 </h2>
                 <p />
-                <h2 onClick={this.showScroll}>
-                  <Link to="/about" >About</Link>
+                <h2 onClick={this.hideMenu}>
+                  <Link to="/about">About</Link>
                 </h2>
                 <p />
-                <h2>
+                <h2 onClick={this.hideMenu}>
                   <Link to="/projects">Projects</Link>
                 </h2>
                 <p />
 
-                <h2>
+                <h2 onClick={this.hideMenu}>
                   <Link to="/contact">Contact</Link>
                 </h2>
               </div>

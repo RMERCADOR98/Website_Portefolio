@@ -1,5 +1,4 @@
 import React from "react";
-import NavbarWhite from "../NavbarWhite";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 //Animations
 import { motion } from "framer-motion";
@@ -11,9 +10,6 @@ import "./home.css";
 const Home = () => {
   return (
     <div style={{ overflow: "hidden" }}>
-      <div className="NavBar" style={{ height: "5vh" }}>
-        <NavbarWhite />
-      </div>
       <motion.div
         variants={pageAnimation}
         initial="hidden"

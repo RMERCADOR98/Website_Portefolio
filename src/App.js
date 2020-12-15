@@ -1,35 +1,42 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+//Components
 import About from "./Components/AboutMe/About";
 import Contact from "./Components/Contact/Contact";
 import Projects from "./Components/Projects/Projects";
 import Home from "./Components/Home/Home";
-import "./App.css";
-
 import Project1 from "./Components/Projects/ProjectList/Project1";
+//Styling
+import "./App.css";
+import { AnimatePresence } from "framer-motion";
+//Routing
+import { Route, Switch, useLocation } from "react-router-dom";
+
+import NavbarBlack from "./Components/NavbarBlack";
 
 const App = () => {
+  const location = useLocation();
   return (
     <div className="App">
-      <Router>
-        <Switch>
-          <Route exact path="/" component={Home}>
+      <NavbarBlack location={location} />
+      <AnimatePresence exitBeforeEnter>
+        <Switch location={location}>
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/about" component={About}>
+          <Route exact path="/about">
             <About />
           </Route>
-          <Route exact path="/projects" component={Projects}>
+          <Route exact path="/projects">
             <Projects />
           </Route>
-          <Route exact path="/projects/project1" component={Project1}>
+          <Route exact path="/projects/project1">
             <Project1 />
           </Route>
-          <Route exact path="/contact" component={Contact}>
+          <Route exact path="/contact">
             <Contact />
           </Route>
         </Switch>
-      </Router>
+      </AnimatePresence>
     </div>
   );
 };

@@ -1,7 +1,6 @@
 import React from "react";
-import NavbarBlack from "../NavbarBlack";
 import Footer from "../Footer";
-import { Link, useRouteMatch } from "react-router-dom";
+import { useRouteMatch } from "react-router-dom";
 
 import { BiDownArrowCircle } from "react-icons/bi";
 
@@ -11,13 +10,8 @@ import Project2 from "./ProjectList/Project2";
 import Project3 from "./ProjectList/Project3";
 
 const Projects = () => {
-  let { url } = useRouteMatch();
-
   return (
     <div>
-      <div className="NavBar">
-        <NavbarBlack />
-      </div>
       <div
         class=" justify-content-center text-center pt-5 container-fluid "
         style={{

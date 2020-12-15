@@ -8,7 +8,8 @@ export const pageAnimation = {
     y: 0,
     transition: {
       duration: 0.5,
-      when: "beforeChildren",
+      when: "afterChildren",
+      // delayChildren: 3,
       staggerChildren: 0.25,
     },
   },
@@ -27,17 +28,14 @@ export const icons = {
   },
   show: {
     opacity: 1,
-
     transition: {
-      duration: 1,
-      when: "beforeChildren",
-      staggerChildren: 0.25,
+      duration: 1.3,
     },
   },
   exit: {
     opacity: 0,
     transition: {
-      duration: 0.5,
+      duration: 1.5,
     },
   },
 };
